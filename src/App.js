@@ -1,13 +1,7 @@
-import "./App.css";
+import "./App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        TESTING CI/CD
-      </header>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

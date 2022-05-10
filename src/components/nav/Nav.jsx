@@ -1,13 +1,20 @@
 import React from "react";
+import "../../styles/nav/_nav.scss";
+import image2 from "../../assets/images/image2/Image 2.png";
+import Button from "react-bootstrap/Button";
 
 const Nav = () => {
   return (
     <nav className="nav">
       <ul className="menu-nav">
-        <input type="checkbox" name="display-menu" id="display-menu" />
+        <li className="menu-item">Cómo Participar</li>
+        <li className="menu-item">Móviles</li>
+        <li className="menu-item">Ranking</li>
       </ul>
-      <div className="logo">LOGO HERE</div>
-      <button>Comienza Ahora</button>
+      <div className="logo">
+        <img src={image2} alt="LOGO" />
+      </div>
+      <Button variant="info">Comienza Ahora</Button>
     </nav>
   );
 };

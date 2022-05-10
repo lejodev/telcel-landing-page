@@ -1,0 +1,26 @@
+.nav {
+  //   position: absolute;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+  .menu-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-family: "DIN pro";
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    .menu-item {
+      margin-right: 2em;
+    }
+  }
+  .logo {
+    transform: translateX(-50%);
+  }
+  .button {
+    background-color: #00ffff;
+  }
+}
