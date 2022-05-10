@@ -4,9 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Nav from "./components/nav/Nav";
 import Register from "./components/register/Register";
-import NoPage from "./components/noPage/NoPage";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
