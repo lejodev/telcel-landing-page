@@ -3,7 +3,7 @@ import Nav from "../nav/Nav";
 import "../../styles/register/_register.scss";
 import Button from "react-bootstrap/Button";
 
-import video from "../../assets/images/video/video-mob.png";
+// import video from "../../assets/images/video/video-mob.png";
 
 const Register = () => {
   return (
