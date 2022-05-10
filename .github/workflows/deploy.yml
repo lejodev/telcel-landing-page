@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         node-version: [15.x]
-        
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -25,3 +25,4 @@ jobs:
         with:
           folder: build
           branch: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
