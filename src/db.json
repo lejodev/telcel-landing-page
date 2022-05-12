@@ -1,0 +1,44 @@
+{
+  "players": [
+    {
+      "id": 0,
+      "name": "ULStriker2",
+      "score": 1801
+    },
+    {
+      "id": 1,
+      "name": "SkillEZ001",
+      "score": 1788
+    },
+    {
+      "id": 2,
+      "name": "GMX_",
+      "score": 1550
+    },
+    {
+      "id": 3,
+      "name": "RandmHz",
+      "score": 1002
+    },
+    {
+      "id": 4,
+      "name": "ROs3",
+      "score": 989
+    },
+    {
+      "id": 5,
+      "name": "ArmsOp3n8023",
+      "score": 901
+    },
+    {
+      "id": 6,
+      "name": "Rockstarz578",
+      "score": 721
+    },
+    {
+      "id": 7,
+      "name": "CrazyONE",
+      "score": 607
+    }
+  ]
+}

@@ -4,19 +4,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Nav from "./components/nav/Nav";
+import Main from "./components/main/Main";
 import Register from "./components/register/Register";
 import Phones from "./components/phones/Phones";
 import Ranking from "./components/ranking/Ranking";
+import Foooter from "./components/footer/Foooter";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
   <Router>
+    <Nav />
+    <Main />
     <Register />
     <Phones />
     <Ranking />
-    {/* <NoPage /> */}
+    <Foooter />
   </Router>
   // </React.StrictMode>
 );

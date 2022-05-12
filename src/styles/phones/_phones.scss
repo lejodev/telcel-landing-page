@@ -1,3 +1,4 @@
+@import "../mixins";
 .phones-section {
   background-image: url("../../assets/images/image12/Image\ 12.png");
   background-position: center;
@@ -13,7 +14,7 @@
   @media (min-width: 950px) {
     flex-flow: row;
     height: 90vh;
-    padding: 0 8vw;
+    padding: 0 8vw 0 0;
   }
   .phones-image-container {
     position: relative;
@@ -24,7 +25,9 @@
     justify-content: center;
     z-index: 10;
     @media (min-width: 950px) {
+      // top: -10px;
       height: 100%;
+      width: 58vw;
     }
     .phones-image {
       position: absolute;
@@ -38,11 +41,12 @@
       overflow: visible;
       z-index: -10;
       @media (min-width: 950px) {
-        top: 0%;
+        top: 0;
         object-fit: fill;
-        // background-position: center;
-        // background-size: contain;
-        // height: 110%;
+        background-position: center;
+        background-size: contain;
+        height: 110%;
+        top: -5%;
       }
     }
   }
@@ -52,27 +56,17 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    @media (min-width: 950px) {
+      height: 100%;
+      width: 42vw;
+    }
     .title {
-      display: inherit;
-      flex-flow: column;
-      align-items: center;
+      @include title;
       .purple-title {
-        transform: matrix(1, -0.03, 0.03, 1, 0, 0) translateY(50%);
-        text-align: left;
-        font: Heaters normal 900 100vw "DIN Pro";
-        color: #a80caf;
-        text-transform: uppercase;
-        opacity: 1;
-        height: fit-content;
-        font-size: 4vw;
+        @include purple-title;
       }
       .dark-title {
-        text-align: left;
-        font: italic normal 900 10vw "DIN Pro";
-        letter-spacing: 0px;
-        color: #000000;
-        text-transform: uppercase;
-        opacity: 1;
+       @include dark-title
       }
     }
     .brands-icons {

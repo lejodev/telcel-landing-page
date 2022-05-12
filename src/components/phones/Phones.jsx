@@ -9,7 +9,7 @@ import "../../styles/phones/_phones.scss";
 
 const Phones = () => {
   return (
-    <section className="phones-section">
+    <section className="phones-section" id="phones">
       <div className="phones-image-container">
         <div className="phones-image"></div>
       </div>

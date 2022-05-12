@@ -9,15 +9,22 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 0 8vw;
+  padding: 8vw;
+  @media (min-width: 950px) {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
   .player-container {
     width: 75vw;
     height: 90vw;
     display: flex;
     flex-flow: column;
     align-items: center;
+    @media (min-width: 950px) {
+        height: 70vh;
+      }
     .player-title {
-        width: 40%;
+      width: 40%;
     }
   }
   .player1,

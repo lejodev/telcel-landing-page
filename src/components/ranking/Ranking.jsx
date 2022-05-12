@@ -6,7 +6,7 @@ import player3_title from "../../assets/images/image18/Image 18.png";
 
 const Ranking = () => {
   return (
-    <section className="ranking">
+    <section className="ranking" id="ranking">
       <div className="player-container player1">
         <img
           src={player1_title}
@@ -14,7 +14,50 @@ const Ranking = () => {
           title="TEAM UL1BARRY"
           className="player-title"
         />
-        <div className="player-stats"></div>
+        <div className="player-stats-container">
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+          <ul className="stat">
+            <div className="text">
+              <div className="player"></div>
+              <div className="score"></div>
+            </div>
+            <hr className="divider" />
+          </ul>
+        </div>
       </div>
       <div className="player-container player2">
         <img
