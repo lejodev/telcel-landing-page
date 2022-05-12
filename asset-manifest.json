@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/telcel-landing-page/static/css/main.7f16633d.css",
-    "main.js": "/telcel-landing-page/static/js/main.50f56fc0.js",
+    "main.css": "/telcel-landing-page/static/css/main.cd1eb2ba.css",
+    "main.js": "/telcel-landing-page/static/js/main.87837060.js",
     "static/js/787.60bf9308.chunk.js": "/telcel-landing-page/static/js/787.60bf9308.chunk.js",
     "static/media/Image 3.png": "/telcel-landing-page/static/media/Image 3.5f7ebb56570f3804614c.png",
     "static/media/video-desk.png": "/telcel-landing-page/static/media/video-desk.1d52846f4e44bcb2a30f.png",
     "static/media/Image 12.png": "/telcel-landing-page/static/media/Image 12.9a50eb4e3e356c62064f.png",
     "static/media/Image 13.png": "/telcel-landing-page/static/media/Image 13.1e60a042c5e7fa98bfbb.png",
+    "static/media/Image 19.png": "/telcel-landing-page/static/media/Image 19.e2e03e093f33a988368a.png",
     "static/media/Image 1.png": "/telcel-landing-page/static/media/Image 1.e8e449b9e262980bbe91.png",
+    "static/media/Image 15.png": "/telcel-landing-page/static/media/Image 15.372d9e310f513016b291.png",
+    "static/media/Image 14.png": "/telcel-landing-page/static/media/Image 14.3140a741ac12ba66625f.png",
     "static/media/Image 2.png": "/telcel-landing-page/static/media/Image 2.b3e0ab9e0819b7a6a337.png",
     "static/media/Group 1.svg": "/telcel-landing-page/static/media/Group 1.d18bbd02bd0c41fdd2ca.svg",
     "index.html": "/telcel-landing-page/index.html",
-    "main.7f16633d.css.map": "/telcel-landing-page/static/css/main.7f16633d.css.map",
-    "main.50f56fc0.js.map": "/telcel-landing-page/static/js/main.50f56fc0.js.map",
+    "main.cd1eb2ba.css.map": "/telcel-landing-page/static/css/main.cd1eb2ba.css.map",
+    "main.87837060.js.map": "/telcel-landing-page/static/js/main.87837060.js.map",
     "787.60bf9308.chunk.js.map": "/telcel-landing-page/static/js/787.60bf9308.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f16633d.css",
-    "static/js/main.50f56fc0.js"
+    "static/css/main.cd1eb2ba.css",
+    "static/js/main.87837060.js"
   ]
 }
