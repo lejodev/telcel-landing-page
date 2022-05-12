@@ -1,3 +1,36 @@
-.ranging {
-    background-image: url("../../assets/images/");
+.ranking {
+  width: 100%;
+  height: fit-content;
+  background-image: url("../../assets/images/image19/Image\ 19.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8vw;
+  .player-container {
+    width: 75vw;
+    height: 90vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .player-title {
+        width: 40%;
+    }
+  }
+  .player1,
+  .player3 {
+    background: url("../../assets/images/image14/Image\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .player2 {
+    background: url("../../assets/images/image15/Image\ 15.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
