@@ -6,6 +6,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Register from "./components/register/Register";
 import Phones from "./components/phones/Phones";
+import Ranking from "./components/ranking/Ranking";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,6 +15,7 @@ root.render(
   <Router>
     <Register />
     <Phones />
+    <Ranking />
     {/* <NoPage /> */}
   </Router>
   // </React.StrictMode>
