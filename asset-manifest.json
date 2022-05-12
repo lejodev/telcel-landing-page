@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/telcel-landing-page/static/css/main.35a135ab.css",
-    "main.js": "/telcel-landing-page/static/js/main.ff96d11c.js",
+    "main.css": "/telcel-landing-page/static/css/main.2f385f81.css",
+    "main.js": "/telcel-landing-page/static/js/main.97e3e6c1.js",
     "static/js/787.60bf9308.chunk.js": "/telcel-landing-page/static/js/787.60bf9308.chunk.js",
     "static/media/Image 3.png": "/telcel-landing-page/static/media/Image 3.5f7ebb56570f3804614c.png",
     "static/media/video-desk.png": "/telcel-landing-page/static/media/video-desk.1d52846f4e44bcb2a30f.png",
@@ -17,12 +17,12 @@
     "index.html": "/telcel-landing-page/index.html",
     "static/media/Path 4.svg": "/telcel-landing-page/static/media/Path 4.e2c6a2de46992386d3d48e638c44598a.svg",
     "static/media/Path 3.svg": "/telcel-landing-page/static/media/Path 3.7c53e87788dd211ef72fec9a3c96513f.svg",
-    "main.35a135ab.css.map": "/telcel-landing-page/static/css/main.35a135ab.css.map",
-    "main.ff96d11c.js.map": "/telcel-landing-page/static/js/main.ff96d11c.js.map",
+    "main.2f385f81.css.map": "/telcel-landing-page/static/css/main.2f385f81.css.map",
+    "main.97e3e6c1.js.map": "/telcel-landing-page/static/js/main.97e3e6c1.js.map",
     "787.60bf9308.chunk.js.map": "/telcel-landing-page/static/js/787.60bf9308.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a135ab.css",
-    "static/js/main.ff96d11c.js"
+    "static/css/main.2f385f81.css",
+    "static/js/main.97e3e6c1.js"
   ]
 }
