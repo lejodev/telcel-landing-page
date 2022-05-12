@@ -1,27 +1,29 @@
 @import "../mixins";
 .participate {
-    height: 70vh;
-    // position: absolute;
-    // top: -65vh;
-    padding-left: 8vw;
-    width: 40%;
-    grid-area: participate;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    transform-origin: bottom;
-    // bottom: 0;
-    .participation-details-title {
-      @include title;
-      .blue-title {
-        @include blue-title
-      }
-      .white-title {
-        @include white-title
-      }
+  height: 70vh;
+  padding-left: 8vw;
+  width: 40%;
+  grid-area: participate;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  transform-origin: bottom;
+  .participation-details-title {
+    @include title;
+    .blue-title {
+      @include blue-title;
     }
+    .white-title {
+      @include white-title;
+    }
+  }
+  .text {
     p {
       color: #fff;
     }
   }
+  .btn-info {
+    font: italic normal 900 20px/25px DIN Pro;
+  }
+}

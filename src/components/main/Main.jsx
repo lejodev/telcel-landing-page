@@ -1,10 +1,6 @@
 import React from "react";
-import Nav from "../nav/Nav";
 import "../../styles/main/_main.scss";
 import Button from "react-bootstrap/Button";
-import Register from "../register/Register";
-
-// import video from "../../assets/images/video/video-mob.png";
 
 const Main = () => {
   return (
@@ -18,7 +14,7 @@ const Main = () => {
         <div className="invitation">
           <div className="invitation-title"></div>
           <span className="invitation-text">COMPRA, CONCURSA Y GANA</span>
-          <Button variant="outline-info"> CONOCE COMO</Button>
+          <Button variant="outline-info"> CONOCE CÓMO</Button>
         </div>
       </div>
     </div>

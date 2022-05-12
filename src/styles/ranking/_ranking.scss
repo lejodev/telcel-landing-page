@@ -20,11 +20,45 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    justify-content: center;
+    position: relative;
     @media (min-width: 950px) {
-        height: 70vh;
-      }
+      height: 90vh;
+      width: 33%;
+    }
     .player-title {
+      position: absolute;
+      top: 0;
       width: 40%;
+      @media (min-width: 950px) {
+        transform: translateY(70%);
+      }
+    }
+    .player-stats-container {
+      align-self: start;
+      height: 70%;
+      width: 100%;
+      padding: 0 2em;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      @media (min-width: 950px) {
+        height: 50%;
+      }
+      .stat {
+        padding: 0;
+        margin: 0;
+        .text {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          border-bottom: 1px solid #fff;
+          .player,
+          .score {
+            color: #fff;
+          }
+        }
+      }
     }
   }
   .player1,
